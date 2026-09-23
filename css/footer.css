@@ -10,7 +10,7 @@
 }
 .footer-logo-wrap {
   margin-right: 0;
-  text-align: center;
+  text-align: left;
 }
 .footer .logo {
   font-family: 'Raleway', sans-serif;
@@ -133,6 +133,21 @@
   }
   .footer-logo-wrap {
     text-align: left;
+  }
+  .footer-
+    соціальний
+    блок
+    та
+    соціальний
+    список
+    вирівнюємо
+    зліва
+    */
+    .footer-social {
+    text-align: left;
+  }
+  .footer-social .social-list {
+    justify-content: flex-start;
   }
   .footer-subscribe {
     align-items: flex-start;
