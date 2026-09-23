@@ -22,6 +22,8 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  padding: 24px 0; /* Внутрішні вертикальні відступи для мобілки */
+  display: inline-block;
   margin-right: 76px;
 }
 .logo-studio {
@@ -33,7 +35,7 @@
 .header-address {
   font-style: normal;
   display: none;
-  margin-left: auto; /* Притискає контакти до правого краю */
+  margin-left: auto;
 }
 .header-address-list {
   display: flex;
@@ -107,6 +109,23 @@
   .header-address {
     display: block;
   }
+  /* На планшеті залишаємо вертикальний стек з меншим відступом */
+  .header-address-list {
+    flex-direction: column;
+    gap: 12px;
+  }
+  .header-address-link {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .header-logo {
+    margin-right: 76px;
+  }
+  /* На десктопі контакти стають в рядок з більшим шрифтом */
   .header-address-list {
     flex-direction: row;
     align-items: center;
@@ -115,12 +134,5 @@
   .header-address-link {
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
-  }
-}
-
-@media screen and (min-width: 1158px) {
-  .header-logo {
-    margin-right: 76px;
   }
 }
