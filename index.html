@@ -20,25 +20,28 @@
     <!-- HEADER -->
     <header class="header" id="header">
       <div class="container header-container">
-        <a href="./index.html" class="logo">
-          <span class="logo-accent">Web</span>Studio
+        <a href="./index.html" class="header-logo">
+          <span class="logo-accent">Web</span
+          ><span class="logo-studio">Studio</span>
         </a>
         <nav class="header-navigation">
-          <ul class="nav-list">
-            <li><a href="./index.html" class="nav-link current">Studio</a></li>
-            <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
-            <li><a href="#contacts" class="nav-link">Contacts</a></li>
+          <ul class="header-menu-list">
+            <li>
+              <a href="./index.html" class="header-menu-link current">Studio</a>
+            </li>
+            <li><a href="#portfolio" class="header-menu-link">Portfolio</a></li>
+            <li><a href="#contacts" class="header-menu-link">Contacts</a></li>
           </ul>
         </nav>
-        <address class="address">
-          <ul class="address-list">
+        <address class="header-address">
+          <ul class="header-address-list">
             <li>
-              <a href="mailto:info@devstudio.com" class="address-link"
+              <a href="mailto:info@devstudio.com" class="header-address-link"
                 >info@devstudio.com</a
               >
             </li>
             <li>
-              <a href="tel:+110001111111" class="address-link"
+              <a href="tel:+110001111111" class="header-address-link"
                 >+11 (000) 111-11-11</a
               >
             </li>
@@ -46,8 +49,8 @@
         </address>
 
         <!-- Кнопка мобільного меню (бургер) -->
-        <button class="menu-open-btn" type="button">
-          <svg class="menu-open-icon" width="24" height="24">
+        <button class="header-menu-open-btn" type="button">
+          <svg class="header-menu-open-icon" width="24" height="24">
             <use href="./images/icons.svg#menu-hamburger"></use>
           </svg>
         </button>
@@ -128,6 +131,7 @@
             <li class="team-item">
               <img
                 src="./images/team-1.jpg"
+                srcset="./images/team-1.jpg 1x, ./images/team-1@2x.jpg 2x"
                 alt="Mark Guerrero"
                 width="264"
                 height="260"
@@ -170,6 +174,7 @@
             <li class="team-item">
               <img
                 src="./images/team-2.jpg"
+                srcset="./images/team-2.jpg 1x, ./images/team-2@2x.jpg 2x"
                 alt="Tom Ford"
                 width="264"
                 height="260"
@@ -212,6 +217,7 @@
             <li class="team-item">
               <img
                 src="./images/team-3.jpg"
+                srcset="./images/team-3.jpg 1x, ./images/team-3@2x.jpg 2x"
                 alt="Camila Garcia"
                 width="264"
                 height="260"
@@ -254,6 +260,7 @@
             <li class="team-item">
               <img
                 src="./images/team-4.jpg"
+                srcset="./images/team-4.jpg 1x, ./images/team-4@2x.jpg 2x"
                 alt="Daniel Wilson"
                 width="264"
                 height="260"
@@ -306,6 +313,10 @@
               <div class="portfolio-thumb">
                 <img
                   src="./images/portfolio-1.jpg"
+                  srcset="
+                    ./images/portfolio-1.jpg    1x,
+                    ./images/portfolio-1@2x.jpg 2x
+                  "
                   alt="Banking App"
                   width="360"
                   height="300"
@@ -325,6 +336,10 @@
               <div class="portfolio-thumb">
                 <img
                   src="./images/portfolio-2.jpg"
+                  srcset="
+                    ./images/portfolio-2.jpg    1x,
+                    ./images/portfolio-2@2x.jpg 2x
+                  "
                   alt="Cashless Payment"
                   width="360"
                   height="300"
@@ -344,6 +359,10 @@
               <div class="portfolio-thumb">
                 <img
                   src="./images/portfolio-3.jpg"
+                  srcset="
+                    ./images/portfolio-3.jpg    1x,
+                    ./images/portfolio-3@2x.jpg 2x
+                  "
                   alt="Meditation App"
                   width="360"
                   height="300"
@@ -363,6 +382,10 @@
               <div class="portfolio-thumb">
                 <img
                   src="./images/portfolio-4.jpg"
+                  srcset="
+                    ./images/portfolio-4.jpg    1x,
+                    ./images/portfolio-4@2x.jpg 2x
+                  "
                   alt="Taxi Service"
                   width="360"
                   height="300"
@@ -382,6 +405,10 @@
               <div class="portfolio-thumb">
                 <img
                   src="./images/portfolio-5.jpg"
+                  srcset="
+                    ./images/portfolio-5.jpg    1x,
+                    ./images/portfolio-5@2x.jpg 2x
+                  "
                   alt="Screen Illustrations"
                   width="360"
                   height="300"
@@ -401,6 +428,10 @@
               <div class="portfolio-thumb">
                 <img
                   src="./images/portfolio-6.jpg"
+                  srcset="
+                    ./images/portfolio-6.jpg    1x,
+                    ./images/portfolio-6@2x.jpg 2x
+                  "
                   alt="Online Courses"
                   width="360"
                   height="300"
