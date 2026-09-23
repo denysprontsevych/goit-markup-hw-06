@@ -45,7 +45,6 @@
     width: calc((100% - 24px) / 2);
   }
   .features-subtitle {
-    font-size: 36px;
     text-align: left;
   }
 }
@@ -66,6 +65,7 @@
   .features-subtitle {
     font-weight: 500;
     font-size: 20px;
+    line-height: 1.2; /* Виправлено зауваження ментора */
   }
   .features-text {
     font-weight: 400;

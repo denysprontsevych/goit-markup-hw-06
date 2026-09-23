@@ -134,16 +134,7 @@
   .footer-logo-wrap {
     text-align: left;
   }
-  .footer-
-    соціальний
-    блок
-    та
-    соціальний
-    список
-    вирівнюємо
-    зліва
-    */
-    .footer-social {
+  .footer-social {
     text-align: left;
   }
   .footer-social .social-list {
@@ -167,7 +158,7 @@
   }
   .footer-container {
     flex-wrap: nowrap;
-    padding-left: 15px;
+    padding-left: 0; /* Виправлено зайвий відступ */
     gap: 0;
   }
   .footer-logo-wrap {
